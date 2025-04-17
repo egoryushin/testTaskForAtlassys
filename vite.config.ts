@@ -1,4 +1,3 @@
-// vite.config.ts
 import react from '@vitejs/plugin-react'
 import path from 'path'
 import { defineConfig } from 'vite'
@@ -15,8 +14,9 @@ export default defineConfig({
 		emptyOutDir: true,
 		rollupOptions: {
 			input: {
-				main: path.resolve(__dirname, 'src/app/main.tsx'),
+				main: path.resolve(__dirname, 'index.html'),
 			},
 		},
 	},
+	base: '/',
 })
