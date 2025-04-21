@@ -1,19 +1,3 @@
-// import React from 'react'
-// import { Provider } from 'react-redux'
-// import { store } from './store'
-
-// import { GlobalStyle } from '../shared/styles/global'
-// import { KanbanBoard } from '../widgets/kanban-board/ui/board'
-
-// export const App: React.FC = () => {
-// 	return (
-// 		<Provider store={store}>
-// 			<GlobalStyle />
-// 			<KanbanBoard />
-// 		</Provider>
-// 	)
-// }
-
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { Provider } from 'react-redux'
